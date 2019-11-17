@@ -2,7 +2,7 @@ const EventEmitter=require('events').EventEmitter;
 const Counter=function(i){
     this.increment=function(){
         i++;
-        this.emit('increment',i);
+        this.emit('incremened',i);
     }
 }
 
